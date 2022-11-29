@@ -7,6 +7,7 @@ import { AddcourseComponent } from './addcourse/addcourse.component';
 import { ViewComponent } from './view/view.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import {  RouterModule, Routes } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 const myRoute:Routes=[{
   path:"",
@@ -28,7 +29,7 @@ component:ViewComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,RouterModule.forRoot(myRoute)
+    AppRoutingModule,RouterModule.forRoot(myRoute),HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
