@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AddcourseComponent } from './addcourse/addcourse.component';
 import { ViewComponent } from './view/view.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -16,7 +17,7 @@ import { ViewComponent } from './view/view.component';
    
   ],
   imports: [
-    BrowserModule,
+    BrowserModule,HttpClientModule
 
   ],
   providers: [],
