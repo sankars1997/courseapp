@@ -10,5 +10,9 @@ fetchCourses=()=>
 {
   return this.http.get("https://mylinkurcodesapp.herokuapp.com/getcourses")
 }
+addCourse=(dataToSend:any)=>
+{
+  return this.http.post("https://mylinkurcodesapp.herokuapp.com/addcourse",dataToSend)
+}
 
 }

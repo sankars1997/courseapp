@@ -5,4 +5,4 @@
   templateUrl: './view.component.html',
   styleUrls: ['./view.component.css']
 })
-export class ViewComponent {
+export class ViewComponent {}
